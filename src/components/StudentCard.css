@@ -1,0 +1,71 @@
+
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.emoji {
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  color: #1e293b;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.card p {
+  color: #64748b;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.card .city {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.skill {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+  padding: 7px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .card {
+    padding: 20px;
+  }
+
+  .emoji {
+    font-size: 45px;
+  }
+
+  .card h2 {
+    font-size: 21px;
+  }
+}

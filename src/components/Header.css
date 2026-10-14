@@ -1,0 +1,41 @@
+
+.header {
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.header h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  color: #e0e7ff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .header {
+    padding: 40px 15px;
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .header h3 {
+    font-size: 16px;
+  }
+}
